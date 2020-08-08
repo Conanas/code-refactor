@@ -1,12 +1,20 @@
+/* all elements */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+
+/* body styling */
+
 body {
     background-color: #d9dcd6;
 }
+
+
+/* header styling */
 
 header {
     padding: 20px;
@@ -41,14 +49,23 @@ header li {
     margin-left: 25px;
 }
 
-header a {
+
+/* links styling */
+
+a {
     color: #ffffff;
     text-decoration: none;
 }
 
+
+/* paragraph styling */
+
 p {
     font-size: 16px;
 }
+
+
+/* main image */
 
 .hero {
     height: 800px;
@@ -59,6 +76,9 @@ p {
     background-position: center;
 }
 
+
+/* float styling for images in main section */
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,6 +88,9 @@ p {
     float: right;
     margin-left: 25px;
 }
+
+
+/* content style for main section */
 
 .content {
     width: 75%;
@@ -92,6 +115,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+
+/* Aside benefits style */
 
 .benefits {
     margin-right: 20px;
@@ -119,6 +145,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+
+/* footer style */
 
 footer {
     padding: 30px;
